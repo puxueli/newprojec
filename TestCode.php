@@ -186,6 +186,16 @@ class TestCode
         return $excelData;
     }
 
+    //根据值分组
+    function array_group($arr){
+
+        $result =   [];  //初始化一个数组
+        foreach($arr as $k=>$v){
+        $result[$v['initial']][]    =   $v;  //根据initial 进行数组重新赋值
+        }
+        return $result;
+    }
+
 
 
 //**************************************PHPEXCEL处理*******************************************//
