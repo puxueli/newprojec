@@ -1,3 +1,7 @@
 test once
 
 test twice
+
+好玩网址记录
+
+50个优秀经典PHP算法大集合：https://www.jb51.net/article/194177.htm
